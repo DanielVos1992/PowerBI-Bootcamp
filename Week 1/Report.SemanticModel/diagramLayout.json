@@ -7,7 +7,60 @@
         "x": 0,
         "y": 0
       },
-      "nodes": [],
+      "nodes": [
+        {
+          "location": {
+            "x": 578.38305001469382,
+            "y": 8.0148892204006046
+          },
+          "nodeIndex": "Customer",
+          "nodeLineageTag": "a8455fb2-941f-4b51-bd8d-613ad5225cfd",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852.38305001469382,
+            "y": 62.429793590122983
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "8b2b6137-41d5-40b8-965f-651e4baa5d90",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": -9.9999999999999716
+          },
+          "nodeIndex": "Product",
+          "nodeLineageTag": "afdda461-5e4c-4ed8-ae8c-79777d8d2c34",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 294.20156119318528,
+            "y": -9.1404128197540331
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "eafcd797-4967-42b2-9f51-5796a6b39883",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
       "name": "All tables",
       "zoomValue": 100,
       "pinKeyFieldsToTop": false,
