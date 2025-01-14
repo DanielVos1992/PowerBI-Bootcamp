@@ -1597,6 +1597,16 @@
                       "Type": "Noun",
                       "Weight": 0.727
                     }
+                  },
+                  {
+                    "Image": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3579,6 +3589,52 @@
                 },
                 "State": "Generated"
               },
+              "customer_has_customer": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.customer"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "ID": "customers_have_customers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "customers_are_names_IDs_of_customers",
+                    "Name": {
+                      "Name": {
+                        "Role": "customer.customer"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.customer": {
+                    "Target": {
+                      "Entity": "customer.customer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "customer_has_date_of_birth": {
                 "Binding": {
                   "ConceptualEntity": "Customer"
@@ -3773,52 +3829,6 @@
                 "SemanticSlots": {
                   "When": {
                     "Role": "customer.date_of_birth"
-                  }
-                },
-                "State": "Generated"
-              },
-              "customer_is_named_customer": {
-                "Binding": {
-                  "ConceptualEntity": "Customer"
-                },
-                "Phrasings": [
-                  {
-                    "ID": "customers_are_names_IDs_of_customers",
-                    "Name": {
-                      "Name": {
-                        "Role": "customer.customer"
-                      },
-                      "Subject": {
-                        "Role": "customer"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "customer.customer"
-                      },
-                      "Subject": {
-                        "Role": "customer"
-                      }
-                    },
-                    "ID": "customers_have_customers",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "customer": {
-                    "Target": {
-                      "Entity": "customer"
-                    }
-                  },
-                  "customer.customer": {
-                    "Target": {
-                      "Entity": "customer.customer"
-                    }
                   }
                 },
                 "State": "Generated"
@@ -4318,6 +4328,112 @@
                 },
                 "State": "Generated"
               },
+              "product_has_price": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.price"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "ID": "products_have_prices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "product.price"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "ID": "price_indicates_how_expensive_products_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.price": {
+                    "Target": {
+                      "Entity": "product.price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "ID": "products_have_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "products_are_names_IDs_of_products",
+                    "Name": {
+                      "Name": {
+                        "Role": "product.product"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.product": {
+                    "Target": {
+                      "Entity": "product.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "product_has_season": {
                 "Binding": {
                   "ConceptualEntity": "Product"
@@ -4346,112 +4462,6 @@
                   "product.season": {
                     "Target": {
                       "Entity": "product.season"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_is_expensive": {
-                "Binding": {
-                  "ConceptualEntity": "Product"
-                },
-                "Phrasings": [
-                  {
-                    "Adjective": {
-                      "Adjectives": [
-                        {
-                          "expensive": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Antonyms": [
-                        {
-                          "cheap": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Measurement": {
-                        "Role": "product.price"
-                      },
-                      "Subject": {
-                        "Role": "product"
-                      }
-                    },
-                    "ID": "price_indicates_how_expensive_products_are",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product.price"
-                      },
-                      "Subject": {
-                        "Role": "product"
-                      }
-                    },
-                    "ID": "products_have_prices",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product": {
-                    "Target": {
-                      "Entity": "product"
-                    }
-                  },
-                  "product.price": {
-                    "Target": {
-                      "Entity": "product.price"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_is_named_product": {
-                "Binding": {
-                  "ConceptualEntity": "Product"
-                },
-                "Phrasings": [
-                  {
-                    "ID": "products_are_names_IDs_of_products",
-                    "Name": {
-                      "Name": {
-                        "Role": "product.product"
-                      },
-                      "Subject": {
-                        "Role": "product"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product.product"
-                      },
-                      "Subject": {
-                        "Role": "product"
-                      }
-                    },
-                    "ID": "products_have_products",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product": {
-                    "Target": {
-                      "Entity": "product"
-                    }
-                  },
-                  "product.product": {
-                    "Target": {
-                      "Entity": "product.product"
                     }
                   }
                 },
@@ -4517,7 +4527,7 @@
                         "Role": "sale"
                       }
                     },
-                    "ID": "sales_have_dates",
+                    "ID": "sales_have_dates1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4550,7 +4560,7 @@
                         "Role": "sale"
                       }
                     },
-                    "ID": "sales_have_dates1",
+                    "ID": "sales_have_dates",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -4727,6 +4737,66 @@
                 },
                 "State": "Generated"
               },
+              "sale_has_total_cost": {
+                "Binding": {
+                  "ConceptualEntity": "Sales"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sale.total_cost"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "sales_have_total_costs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "sale.total_cost"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "total_cost_indicates_how_expensive_sales_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sale": {
+                    "Target": {
+                      "Entity": "sale"
+                    }
+                  },
+                  "sale.total_cost": {
+                    "Target": {
+                      "Entity": "sale.total_cost"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "sale_has_total_sale": {
                 "Binding": {
                   "ConceptualEntity": "Sales"
@@ -4788,6 +4858,66 @@
                   "sale.type": {
                     "Target": {
                       "Entity": "sale.type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sale_has_unit_cost": {
+                "Binding": {
+                  "ConceptualEntity": "Sales"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sale.unit_cost"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "sales_have_unit_costs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "sale.unit_cost"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "unit_cost_indicates_how_expensive_sales_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sale": {
+                    "Target": {
+                      "Entity": "sale"
+                    }
+                  },
+                  "sale.unit_cost": {
+                    "Target": {
+                      "Entity": "sale.unit_cost"
                     }
                   }
                 },
@@ -4887,126 +5017,6 @@
                   "v_Measure_measure.sale": {
                     "Target": {
                       "Entity": "v_Measure_measure.sale"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "sale_is_expensive": {
-                "Binding": {
-                  "ConceptualEntity": "Sales"
-                },
-                "Phrasings": [
-                  {
-                    "Adjective": {
-                      "Adjectives": [
-                        {
-                          "expensive": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Antonyms": [
-                        {
-                          "cheap": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Measurement": {
-                        "Role": "sale.unit_cost"
-                      },
-                      "Subject": {
-                        "Role": "sale"
-                      }
-                    },
-                    "ID": "unit_cost_indicates_how_expensive_sales_are",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "sale.unit_cost"
-                      },
-                      "Subject": {
-                        "Role": "sale"
-                      }
-                    },
-                    "ID": "sales_have_unit_costs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "sale": {
-                    "Target": {
-                      "Entity": "sale"
-                    }
-                  },
-                  "sale.unit_cost": {
-                    "Target": {
-                      "Entity": "sale.unit_cost"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "sale_is_expensive1": {
-                "Binding": {
-                  "ConceptualEntity": "Sales"
-                },
-                "Phrasings": [
-                  {
-                    "Adjective": {
-                      "Adjectives": [
-                        {
-                          "expensive": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Antonyms": [
-                        {
-                          "cheap": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Measurement": {
-                        "Role": "sale.total_cost"
-                      },
-                      "Subject": {
-                        "Role": "sale"
-                      }
-                    },
-                    "ID": "total_cost_indicates_how_expensive_sales_are",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "sale.total_cost"
-                      },
-                      "Subject": {
-                        "Role": "sale"
-                      }
-                    },
-                    "ID": "sales_have_total_costs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "sale": {
-                    "Target": {
-                      "Entity": "sale"
-                    }
-                  },
-                  "sale.total_cost": {
-                    "Target": {
-                      "Entity": "sale.total_cost"
                     }
                   }
                 },
@@ -5663,8 +5673,14 @@
                 "value": "Automatic"
               }
             ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
             "dataType": "string",
             "lineageTag": "6100b524-e122-4952-9a66-a3971663ac91",
+            "sortByColumn": "Month Num",
             "sourceColumn": "Month",
             "summarizeBy": "none"
           }
