@@ -6008,6 +6008,7 @@
                 "value": "Automatic"
               }
             ],
+            "dataCategory": "ImageUrl",
             "dataType": "string",
             "lineageTag": "d3ff8c89-cc12-4922-a886-d0343e9a41b0",
             "sourceColumn": "Image Club",
