@@ -5978,6 +5978,7 @@
                 "value": "Automatic"
               }
             ],
+            "dataCategory": "ImageUrl",
             "dataType": "string",
             "lineageTag": "a4c62e5e-1745-4d2f-93ef-946bef82b44d",
             "sourceColumn": "Image product",
@@ -6254,13 +6255,13 @@
           {
             "name": "Quantity",
             "expression": "SUM(Sales[Quantity])",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "153cfd2b-9b6b-48df-9816-e1f508b7cca4"
           },
           {
             "name": "Sales",
             "expression": "SUM(Sales[Total Sales]) ",
-            "formatString": "0",
+            "formatString": "\"€\"\\ #,0;-\"€\"\\ #,0;\"€\"\\ #,0",
             "lineageTag": "d50b0f62-16f3-49c2-88ae-d66ef1f8ae5d"
           }
         ],
