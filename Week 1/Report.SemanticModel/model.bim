@@ -6311,6 +6311,17 @@
             "expression": "SUM(Sales[Total Sales]) ",
             "formatString": "\"€\"\\ #,0;-\"€\"\\ #,0;\"€\"\\ #,0",
             "lineageTag": "d50b0f62-16f3-49c2-88ae-d66ef1f8ae5d"
+          },
+          {
+            "name": "Age Average",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE(Customer[Customer age])",
+            "lineageTag": "795dff7d-2020-4ba9-bf1d-7d714a2a2a71"
           }
         ],
         "partitions": [
