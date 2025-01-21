@@ -5184,6 +5184,29 @@
             "lineageTag": "88e2e3ab-df88-4f27-b884-204b0b8e0af9",
             "summarizeBy": "sum",
             "type": "calculated"
+          },
+          {
+            "name": "Customer Age Groups",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "// In this function we will seperate the customers on the basis of their age.",
+              "SWITCH(TRUE(),",
+              "Customer[Customer age] <30, \"<30 Years\",",
+              "Customer[Customer age] <60, \"Between 30 and 59 Years\",",
+              "Customer[Customer age] <= 75, \"Between 60 and 75 Years\",",
+              "\"More than 75 Years\")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "2b758784-2668-41cb-9cd7-13d0e2df89f1",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "a8455fb2-941f-4b51-bd8d-613ad5225cfd",
@@ -6322,6 +6345,24 @@
             ],
             "expression": "AVERAGE(Customer[Customer age])",
             "lineageTag": "795dff7d-2020-4ba9-bf1d-7d714a2a2a71"
+          },
+          {
+            "name": "Costs",
+            "expression": "SUM((Sales[Total Cost])  )",
+            "formatString": "0",
+            "lineageTag": "ec5e0af4-1407-4037-ae0f-e6816a03ce2b"
+          },
+          {
+            "name": "Margin",
+            "expression": "[Sales] - [Costs] ",
+            "formatString": "0",
+            "lineageTag": "3a6f4c12-73ed-4a13-8d0a-84f5182d2dee"
+          },
+          {
+            "name": "Margin %",
+            "expression": "DIVIDE([Margin], [Sales])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "8375921d-6d3c-4390-8346-11456b53e643"
           }
         ],
         "partitions": [
