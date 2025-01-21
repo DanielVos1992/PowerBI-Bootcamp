@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.139.1576.0 (24.12)+cf7e324bca3ba1dbdfd6f0ddf9a53321538e996d"
+        "value": "2.139.1678.0 (24.12)+2a034ab280bddf891eb7bb9ebfe6996f9c3a3196"
       },
       {
         "name": "PBI_QueryOrder",
@@ -5168,6 +5168,22 @@
                 "relationship": "5370ae82-fbdb-4b30-b1ee-06b0f01b4753"
               }
             ]
+          },
+          {
+            "name": "Customer age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "DATEDIFF(Customer[Date of birth], TODAY(), YEAR)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "88e2e3ab-df88-4f27-b884-204b0b8e0af9",
+            "summarizeBy": "sum",
+            "type": "calculated"
           }
         ],
         "lineageTag": "a8455fb2-941f-4b51-bd8d-613ad5225cfd",
@@ -5683,6 +5699,21 @@
             "sortByColumn": "Month Num",
             "sourceColumn": "Month",
             "summarizeBy": "none"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Date'[Date], \"ddd\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "0b66b707-d351-4d2e-833c-35a53892e78c",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "8b2b6137-41d5-40b8-965f-651e4baa5d90",
