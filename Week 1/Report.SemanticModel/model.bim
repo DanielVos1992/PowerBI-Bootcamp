@@ -305,6 +305,250 @@
                   }
                 ]
               },
+              "customer.customer_age": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customer",
+                    "ConceptualProperty": "Customer age"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer age": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "age": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "client age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "consumer age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "user age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "buyer age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "patron age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "purchaser age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "shopper age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "customer oldness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "oldness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "customer stage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "customer.customer_age_group": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customer",
+                    "ConceptualProperty": "Customer Age Groups"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer age group": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "age group": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "customer age category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "customer age organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "age category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "age organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "customer age bracket": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "customer age class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "customer age crew": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "customer age team": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "age bracket": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "age class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
               "customer.date_of_birth": {
                 "Definition": {
                   "Binding": {
@@ -1119,6 +1363,22 @@
                   }
                 ]
               },
+              "date.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Date",
+                    "ConceptualProperty": "Day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "date.month": {
                 "Definition": {
                   "Binding": {
@@ -1178,6 +1438,16 @@
                       "Type": "Noun",
                       "Weight": 0.6
                     }
+                  },
+                  {
+                    "Maand": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -1204,6 +1474,16 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.736
+                    }
+                  },
+                  {
+                    "Jaar": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3183,6 +3463,310 @@
                   }
                 ]
               },
+              "v_Measure_measure.age_average": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measure",
+                    "ConceptualProperty": "Age Average"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "age average": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "age mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "age norm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "age mean": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "age median": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "v_Measure_measure.costs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measure",
+                    "ConceptualProperty": "Costs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "costs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "expenditure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "budget": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "expense": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "outlay": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "overhead": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "fee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "v_Measure_measure.margin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measure",
+                    "ConceptualProperty": "Margin"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "margin": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boundary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "perimeter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "periphery": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "border": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "brim": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sideline": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "edge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "verge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fringe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "side": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "v_Measure_measure.margin_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measure",
+                    "ConceptualProperty": "Margin %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "margin %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "margin percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "margin pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
               "v_Measure_measure.quantity": {
                 "Definition": {
                   "Binding": {
@@ -3635,6 +4219,99 @@
                 },
                 "State": "Generated"
               },
+              "customer_has_customer_age": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.customer_age"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "ID": "customers_have_customer_ages",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "old": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "young": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "customer.customer_age"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "ID": "customer_age_indicates_how_old_customers_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.customer_age": {
+                    "Target": {
+                      "Entity": "customer.customer_age"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_has_customer_age_group": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.customer_age_group"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "ID": "customers_have_customer_age_groups",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.customer_age_group": {
+                    "Target": {
+                      "Entity": "customer.customer_age_group"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "customer_has_date_of_birth": {
                 "Binding": {
                   "ConceptualEntity": "Customer"
@@ -3696,6 +4373,39 @@
                   "customer.id_customer": {
                     "Target": {
                       "Entity": "customer.id_customer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_has_v_Measure_measure_age_average": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measure_measure.age_average"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "ID": "customers_have_age_average",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "v_Measure_measure.age_average": {
+                    "Target": {
+                      "Entity": "v_Measure_measure.age_average"
                     }
                   }
                 },
@@ -4026,6 +4736,39 @@
                   "date.date": {
                     "Target": {
                       "Entity": "date.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.day"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "ID": "dates_have_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.day": {
+                    "Target": {
+                      "Entity": "date.day"
                     }
                   }
                 },
@@ -4951,6 +5694,132 @@
                   "sale.unit_price": {
                     "Target": {
                       "Entity": "sale.unit_price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sale_has_v_Measure_measure_costs": {
+                "Binding": {
+                  "ConceptualEntity": "Sales"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measure_measure.costs"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "sales_have_costs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "v_Measure_measure.costs"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "costs_indicates_how_expensive_sales_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sale": {
+                    "Target": {
+                      "Entity": "sale"
+                    }
+                  },
+                  "v_Measure_measure.costs": {
+                    "Target": {
+                      "Entity": "v_Measure_measure.costs"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sale_has_v_Measure_measure_margin": {
+                "Binding": {
+                  "ConceptualEntity": "Sales"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measure_measure.margin"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "sales_have_margin",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sale": {
+                    "Target": {
+                      "Entity": "sale"
+                    }
+                  },
+                  "v_Measure_measure.margin": {
+                    "Target": {
+                      "Entity": "v_Measure_measure.margin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sale_has_v_Measure_measure_margin_": {
+                "Binding": {
+                  "ConceptualEntity": "Sales"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measure_measure.margin_"
+                      },
+                      "Subject": {
+                        "Role": "sale"
+                      }
+                    },
+                    "ID": "sales_have_margin_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sale": {
+                    "Target": {
+                      "Entity": "sale"
+                    }
+                  },
+                  "v_Measure_measure.margin_": {
+                    "Target": {
+                      "Entity": "v_Measure_measure.margin_"
                     }
                   }
                 },
@@ -6349,13 +7218,13 @@
           {
             "name": "Costs",
             "expression": "SUM((Sales[Total Cost])  )",
-            "formatString": "0",
+            "formatString": "\"€\"\\ #,0.00;-\"€\"\\ #,0.00;\"€\"\\ #,0.00",
             "lineageTag": "ec5e0af4-1407-4037-ae0f-e6816a03ce2b"
           },
           {
             "name": "Margin",
             "expression": "[Sales] - [Costs] ",
-            "formatString": "0",
+            "formatString": "\"€\"\\ #,0.00;-\"€\"\\ #,0.00;\"€\"\\ #,0.00",
             "lineageTag": "3a6f4c12-73ed-4a13-8d0a-84f5182d2dee"
           },
           {
@@ -6363,6 +7232,18 @@
             "expression": "DIVIDE([Margin], [Sales])",
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "8375921d-6d3c-4390-8346-11456b53e643"
+          },
+          {
+            "name": "Last Month Sales",
+            "expression": "CALCULATE([Sales], DATEADD('Date'[Date], -1, MONTH))",
+            "formatString": "\"€\"\\ #,0;-\"€\"\\ #,0;\"€\"\\ #,0",
+            "lineageTag": "d85c6fef-1636-446e-86fe-481d9b155bb5"
+          },
+          {
+            "name": "YTD Sales",
+            "expression": "TOTALYTD([Sales], 'Date'[Date])",
+            "formatString": "\"€\"\\ #,0;-\"€\"\\ #,0;\"€\"\\ #,0",
+            "lineageTag": "f3fdd8dc-55f6-430f-a8c4-a0704eaec32f"
           }
         ],
         "partitions": [
